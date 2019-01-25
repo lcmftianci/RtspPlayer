@@ -1,0 +1,25 @@
+﻿  RtspPlayer.cpp
+e:\mycode\rtspplayer\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+RtspPlayer.cpp(70): warning C4996: 'AVStream::codec': 被声明为已否决
+  E:\mycode\RtspPlayer\include\libavformat/avformat.h(877): note: 参见“AVStream::codec”的声明
+RtspPlayer.cpp(85): warning C4996: 'AVStream::codec': 被声明为已否决
+  E:\mycode\RtspPlayer\include\libavformat/avformat.h(877): note: 参见“AVStream::codec”的声明
+RtspPlayer.cpp(101): warning C4311: “类型转换”: 从“uint8_t *”到“unsigned int”的指针截断
+RtspPlayer.cpp(101): warning C4302: “类型转换”: 从“uint8_t *”到“unsigned int”截断
+RtspPlayer.cpp(47): warning C4996: 'av_register_all': 被声明为已否决
+  E:\mycode\RtspPlayer\include\libavformat/avformat.h(2025): note: 参见“av_register_all”的声明
+RtspPlayer.cpp(102): warning C4996: 'avcodec_decode_video2': 被声明为已否决
+  E:\mycode\RtspPlayer\include\libavcodec\avcodec.h(4707): note: 参见“avcodec_decode_video2”的声明
+RtspPlayer.cpp(111): warning C4477: “fprintf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“uint8_t *”
+RtspPlayer.cpp(111): warning C4313: “fprintf”: 格式字符串中的“%x”与“uint8_t *”类型的参数 1 冲突
+RtspPlayer.cpp(117): warning C4996: 'avpicture_get_size': 被声明为已否决
+  E:\mycode\RtspPlayer\include\libavcodec\avcodec.h(5386): note: 参见“avpicture_get_size”的声明
+RtspPlayer.cpp(119): warning C4996: 'avpicture_fill': 被声明为已否决
+  E:\mycode\RtspPlayer\include\libavcodec\avcodec.h(5371): note: 参见“avpicture_fill”的声明
+  正在生成代码
+  2 of 184 functions ( 1.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  RtspPlayer.vcxproj -> E:\mycode\RtspPlayer\x64\Release\RtspPlayer.exe
+  RtspPlayer.vcxproj -> E:\mycode\RtspPlayer\x64\Release\RtspPlayer.pdb (Full PDB)
